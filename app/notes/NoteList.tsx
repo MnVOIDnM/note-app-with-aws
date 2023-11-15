@@ -40,7 +40,7 @@ const NoteItem: React.FC<any> = ({ note }: NoteProps) => {
         <h3 className="text-purple-500 hover:text-purple-700 text-lg md:text-xl font-semibold mb-3 break-all underline underline-offset-2">
           {note.title}
         </h3>
-        {note.content.toString().slice(3, 15) + "..."}
+        {note.content.toString().slice(3, 8) + "..."}
       </Link>
     </div>
   );

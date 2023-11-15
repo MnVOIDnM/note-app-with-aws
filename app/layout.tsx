@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja">
+    <html lang="en">
       <body className={`bg-slate-200 ${NotoSansJP.className}`}>
         <main className="pt-4 px-10">
           <div className="flex justify-between items-center">
